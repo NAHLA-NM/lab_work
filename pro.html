@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSSC 513 Lab Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #dff6ff, #fceff9);
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 26px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .student-info {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 20px 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .student-info p {
+      margin: 6px 0;
+      font-weight: 500;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 22px;
+      border-left: 6px solid #3b82f6;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      color: #1f2937;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(8px);
+      border-radius: 12px;
+      padding: 20px 25px;
+      margin-bottom: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #111827;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #3b82f6;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .card a:hover {
+      color: #1d4ed8;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card-title {
+        font-size: 16px;
+      }
+
+      .student-info {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CSSC 513 Lab Dashboard</h1>
+    <p>Web Technology & Computer Networks Lab</p>
+  </header>
+
+  <div class="container">
+    <div class="student-info">
+      <p><strong>Name:</strong> FATHIMMATH NAHLA NM</p>
+      <p><strong>Reg No.:</strong> 24MSCSCPY0028</p>
+      <p><strong>Semester:</strong> III</p>
+      <p><strong>Subject:</strong> CSSC 513</p>
+    </div>
+
+    <h2>Web Technology Experiments</h2>
+
+    <div class="card">
+      <div class="card-title">1. Simple Webpage using HTML (All Tags)</div>
+      <a href="main_page.html" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">2. Styling HTML with CSS</div>
+      <a href="main.html" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">3. JavaScript Date Display & Form Validation</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">4. Online Applications using PHP</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">5. Online Application with Data Access</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <h2>Computer Networks Experiments</h2>
+
+    <div class="card">
+      <div class="card-title">6. LAN Setup and Multi-Router Topology</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">7. RIP and OSPF Redistribution Analysis</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">8. Network Security Improvement</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">9. Controlling Traffic Flow in a Network</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">10. Firewall Configuration and Analysis</div>
+      <a href="#" target="_blank">View Experiment</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
